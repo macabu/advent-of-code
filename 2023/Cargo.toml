@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "01",
+    "02",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+]
+
+[workspace.package]
+license = "Apache-2.0"
