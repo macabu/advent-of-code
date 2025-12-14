@@ -1,0 +1,12 @@
+[package]
+name = "aoc2025_04"
+version = "0.1.0"
+edition = "2024"
+resolver= "2"
+
+[dependencies]
+itertools = "0.14.0"
+
+[profile.release]
+lto = true
+codegen-units = 1
